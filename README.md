@@ -2,13 +2,6 @@
 
 Crypto-Dash is a React single-page application for tracking cryptocurrency market data from CoinGecko. It provides a fast dashboard view with filtering, sorting, and coin detail pages with charts.
 
-## Why this project is useful
-
-- Gives a clean starter for building market dashboards with React and Vite.
-- Shows practical routing patterns using `react-router` in a small codebase.
-- Demonstrates async API fetching, loading/error states, and reusable UI components.
-- Useful as a portfolio project for frontend fundamentals and API integration.
-
 ## Implemented features
 
 - Routing with `BrowserRouter`, `Routes`, and dynamic route params:
@@ -116,17 +109,6 @@ Example flow in the app:
 2. Use filter input to search by name/symbol.
 3. Change sorting and coin limit.
 4. Click a coin card to open `/coin/:id` details and chart.
-
-## Where to get help
-
-- Open an issue in this repository for bugs or feature requests.
-- Review the main app flow in `src/App.jsx` and pages in `src/pages` for quick orientation.
-
-## Maintainers and contribution
-
-- Maintainer: project owner of this repository.
-- Contributions are welcome via pull requests with clear change descriptions.
-- Before opening a PR, run:
 
 ```bash
 npm run lint
